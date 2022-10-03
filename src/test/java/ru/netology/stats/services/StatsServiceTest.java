@@ -101,4 +101,18 @@ public class StatsServiceTest {
         Assertions.assertEquals(expectedAmountMonthsSalesAboveAverage, actualAmountMonthSalesAboveAverage);
 
     }
+
+//    @Test
+//
+//    public void shouldCalcAmountMonthsSalesAboveAverage2() {
+//
+//        StatsService service = new StatsService();
+//        int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18, 19};
+//
+//        int expectedAmountMonthsSalesAboveAverage = 6;
+//        int actualAmountMonthSalesAboveAverage = service.getAmountMonthsSalesAboveAverage2(sales);
+//
+//        Assertions.assertEquals(expectedAmountMonthsSalesAboveAverage, actualAmountMonthSalesAboveAverage);
+//
+//    }
 }

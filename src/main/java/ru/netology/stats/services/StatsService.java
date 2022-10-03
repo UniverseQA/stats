@@ -65,4 +65,15 @@ public class StatsService {
         }
         return amountMonthsSalesAboveAverage;
     }
+
+//    public int getAmountMonthsSalesAboveAverage2(int[] sales) {
+//        int amountMonthsSalesAboveAverage = 0;
+//        int averageAmountSales = getAverageAmountSales(sales);
+//        for (int a : sales) {
+//            if (a > averageAmountSales) {
+//                amountMonthsSalesAboveAverage++;
+//            }
+//        }
+//        return amountMonthsSalesAboveAverage;
+//    }
 }
